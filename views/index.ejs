@@ -7,11 +7,21 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular-route.js"></script>
+    <script src="js/do_all_patients_controller.js"></script>
+    <script src="js/do_single_patient_controller.js"></script>
+    <script src="js/frontend_routes.js"></script>
     <script src="js/frontend_app.js"></script>
+
 </head>
 
-<body>
+<body ng-app="patient_app">
     <h1>MEAN demo</h1>
+
+    <div ng-view>
+
+    </div>
+
 </body>
 
 </html>
